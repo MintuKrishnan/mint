@@ -1,0 +1,118 @@
+/*=======================================================
+	javascript Section
+=======================================================*/
+.javascript-block .section-header {
+  margin-bottom: 80px;
+}
+.javascript-filters,
+.javascript-items {
+  position: relative;
+  list-style: none;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+.javascript-filters {
+  margin-bottom: 25px;
+}
+.javascript-filters > li {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-right: 25px;
+}
+.javascript-filters > li > a {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 15px 0;
+  margin: -15px 0;
+}
+.javascript-filters > li > a.active,
+.javascript-filters > li > a:hover {
+  color: #202020;
+}
+.javascript-items {
+  margin: -5px;
+  overflow: visible !important;
+}
+.javascript-items > li {
+  width: 33.3333%;
+}
+.javascript-items > li > .inner {
+  margin: 5px;
+  position: relative;
+}
+.javascript-items > li {
+  z-index: 2;
+}
+.javascript-items > li:hover {
+  z-index: 9;
+}
+.javascript-items > li > .inner > .overlay:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -10px;
+  left: -10px;
+  background: #303f9f;
+  opacity: 0.9;
+  -webkit-transform: rotate(0deg) scale(0);
+  -moz-transform: rotate(0deg) scale(0);
+  -ms-transform: rotate(0deg) scale(0);
+  -o-transform: rotate(0deg) scale(0);
+  transform: rotate(0deg) scale(0);
+  -webkit-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -moz-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.javascript-items > li > .inner:hover > .overlay:before {
+  -webkit-transform: rotate(-10deg) scale(1);
+  -moz-transform: rotate(-10deg) scale(1);
+  -ms-transform: rotate(-10deg) scale(1);
+  -o-transform: rotate(-10deg) scale(1);
+  transform: rotate(-10deg) scale(1);
+}
+.javascript-items > li > .inner:hover > .overlay {
+  opacity: 1;
+}
+.javascript-items > li > .inner > .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -moz-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.javascript-items > li > .inner > .overlay > .view-project {
+  font-size: 18px;
+  line-height: 18px;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  margin-top: -29px;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -moz-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.javascript-items > li > .inner > .overlay > .view-project:hover {
+  color: #fff;
+}
