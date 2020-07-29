@@ -3,6 +3,7 @@ $(function () {
 
   var sect = $(window.location.hash),
     portfolio = $(".portfolio-items");
+  // javascript = $(".javascript-items");
 
   if (sect.length == 1) {
     $(".section.active").removeClass("active");
@@ -42,6 +43,18 @@ $(function () {
       portfolio.shuffle("shuffle", groupName);
     });
   });
+  /*=========================================================================
+			javascript Grid
+		=========================================================================*/
+  // 	javascript.shuffle();
+  // 	$(".javascript-filters > li > a").on("click", function (e) {
+  // 	  e.preventDefault();
+  // 	  var groupName = $(this).attr("data-group");
+  // 	  $(".javascript-filters > li > a").removeClass("active");
+  // 	  $(this).addClass("active");
+  // 	  javascript.shuffle("shuffle", groupName);
+  // 	});
+  //   });
 
   /*=========================================================================
 		Navigation Functions
