@@ -42,19 +42,18 @@ $(function () {
       $(this).addClass("active");
       portfolio.shuffle("shuffle", groupName);
     });
-  });
-  /*=========================================================================
+    /*=========================================================================
 			javascript Grid
 		=========================================================================*/
-  // 	javascript.shuffle();
-  // 	$(".javascript-filters > li > a").on("click", function (e) {
-  // 	  e.preventDefault();
-  // 	  var groupName = $(this).attr("data-group");
-  // 	  $(".javascript-filters > li > a").removeClass("active");
-  // 	  $(this).addClass("active");
-  // 	  javascript.shuffle("shuffle", groupName);
-  // 	});
-  //   });
+    // javascript.shuffle();
+    // $(".javascript-filters > li > a").on("click", function (e) {
+    //   e.preventDefault();
+    //   var groupName = $(this).attr("data-group");
+    //   $(".javascript-filters > li > a").removeClass("active");
+    //   $(this).addClass("active");
+    //   javascript.shuffle("shuffle", groupName);
+    // });
+  });
 
   /*=========================================================================
 		Navigation Functions

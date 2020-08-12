@@ -192,9 +192,10 @@ body.border-dark .main-content > .page-border {
   left: 14px;
 }
 
-/*=======================================================
+/*======================================================
 	Section Styles
 =======================================================*/
+
 .main-content {
   position: fixed;
   top: 40px;
@@ -205,6 +206,7 @@ body.border-dark .main-content > .page-border {
   overflow: hidden;
   box-shadow: 0 0 0 10px #fff;
 }
+
 .section {
   position: absolute;
   top: 0;
@@ -217,13 +219,16 @@ body.border-dark .main-content > .page-border {
   padding-top: 110px;
   background: #f0f0f0;
 }
+
 .section.active {
   visibility: visible;
   z-index: 99;
 }
+
 .section-header {
   position: relative;
 }
+
 .section-header > h2 {
   font-size: 28px;
   font-weight: 200;
